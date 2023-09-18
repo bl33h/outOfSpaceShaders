@@ -20,7 +20,7 @@ bool init(SDL_Window*& window, SDL_GLContext& context) {
 
     // Create an application window with the following settings:
     window = SDL_CreateWindow(
-        "OpenGL",               // window title
+        "Out Of Space Shaders",               // window title
         SDL_WINDOWPOS_CENTERED, // initial x position
         SDL_WINDOWPOS_CENTERED, // initial y position
         800,                    // width, in pixels
@@ -147,8 +147,8 @@ GLuint vertexSetup(const std::vector<glm::vec3>& vertices, const std::vector<GLu
 
 void createEarthApproximation(std::vector<glm::vec3>& vertices, std::vector<GLuint>& indices) {
     // Define the number of segments for latitude and longitude
-    int numLatSegments = 8;  // We'll have 8 latitudes
-    int numLongSegments = 6;  // We'll have 6 longitudes
+    int numLatSegments = 22;  // Aumenta la resolución en latitud
+    int numLongSegments = 18;  // Aumenta la resolución en longitud
 
     // Calculate the angles for each segment
     float latStep = M_PI / numLatSegments;
@@ -270,11 +270,15 @@ int main() {
             glm::vec3(0.0f, 1.0f, 0.0f)  // Head is up (set to 0,-1,0 to look upside-down)
         );
 
+        int windowWidth, windowHeight;
+        SDL_GetWindowSize(window, &windowWidth, &windowHeight);
+
+        // Actualiza la relación de aspecto en la matriz de proyección
         glm::mat4 projection = glm::perspective(
-            glm::radians(45.0f), // The field of view
-            800.0f / 600.0f, // Aspect Ratio
-            0.1f, // Near clipping plane
-            100.0f // Far clipping plane
+            glm::radians(45.0f),  // El campo de visión
+            static_cast<float>(windowWidth) / static_cast<float>(windowHeight), // Relación de aspecto
+            0.1f,  // Plano cercano
+            100.0f // Plano lejano
         );
 
         rotateAngle += glm::radians(120.0f) * deltaTime;  // 120 deg per second
