@@ -37,7 +37,7 @@ To clone and run this application, you'll need [WSL (Windows Subsystem for Linux
 $ git clone https://github.com/bl33h/outOfSpaceShaders
 
 # Open the project
-$ cd 3dModelsFlatShading
+$ cd outOfSpaceShaders
 
 # Give execution permissions
 $ chmod +x configure.sh
