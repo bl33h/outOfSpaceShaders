@@ -7,7 +7,7 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <vector>
 #include <SDL2/SDL_opengl.h>
-#include "shaders.h"
+#include "earthShader.h"
 
 bool init(SDL_Window*& window, SDL_GLContext& context) {
 
@@ -20,7 +20,7 @@ bool init(SDL_Window*& window, SDL_GLContext& context) {
 
     // Create an application window with the following settings:
     window = SDL_CreateWindow(
-        "Out Of Space Shaders",               // window title
+        "Out Of Space Shaders by bl33h",               // window title
         SDL_WINDOWPOS_CENTERED, // initial x position
         SDL_WINDOWPOS_CENTERED, // initial y position
         800,                    // width, in pixels
