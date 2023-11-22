@@ -148,8 +148,8 @@ GLuint vertexSetup(const std::vector<glm::vec3>& vertices, const std::vector<GLu
 void createEarthApproximation(std::vector<glm::vec3>& vertices, std::vector<GLuint>& indices) {
     // Define the number of segments for latitude and longitude
 
-    int numLatSegments = 22;  // Aumenta la resolución en latitud
-    int numLongSegments = 18;  // Aumenta la resolución en longitud
+    int numLatSegments = 200;  // Aumenta la resolución en latitud
+    int numLongSegments = 200;  // Aumenta la resolución en longitud
 
 
     // Calculate the angles for each segment
