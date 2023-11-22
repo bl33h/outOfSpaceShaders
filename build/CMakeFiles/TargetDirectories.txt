@@ -1,3 +1,0 @@
-/outOfSpaceShaders/build/CMakeFiles/CG.dir
-/outOfSpaceShaders/build/CMakeFiles/edit_cache.dir
-/outOfSpaceShaders/build/CMakeFiles/rebuild_cache.dir

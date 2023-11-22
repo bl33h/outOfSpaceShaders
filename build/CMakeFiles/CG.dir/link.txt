@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/CG.dir/src/main.cpp.o -o CG  -lSDL2 /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so 
