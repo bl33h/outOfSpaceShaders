@@ -14,7 +14,7 @@ It's a is a graphics application project that explores the fascinating realm of 
   <a href="#how-to-use">How To Use</a>
 </p>
 
-**Files:**
+## Files
 - **configure.sh**: A shell script to set up the project dependencies and environment.
 - **build.sh**: A shell script to build the project using CMake.
 - **run.sh**: A shell script to execute the compiled graphics application.
