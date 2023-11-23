@@ -9,6 +9,7 @@ It's a is a graphics application project that explores the fascinating realm of 
 
 <p align="center">
   <a href="#Files">Files</a> •
+  <a href="#External-dependencies">External Dependencies</a> •
   <a href="#Features">Features</a> •
   <a href="#how-to-use">How To Use</a>
 </p>
@@ -32,9 +33,14 @@ It's a is a graphics application project that explores the fascinating realm of 
 
 The main features of the graphics application include:
 
-- Implementation of various shaders for different celestial bodies (Earth, Neptune, Sun, Moon, Venus, Pluto, Random).
+- Implementation of various shaders for different celestial bodies (Earth, Neptune, Sun, Moon, Venus, Pluton, Random).
 - Noise generation for terrain and density.
 - Triangle filling functions for rendering.
+
+## External Dependencies
+The project makes use of the FastNoise library by Jordan Peck (jordan.me2@gmail.com). Specifically, it includes the files FastNoise.h and FastNoise.Lite.h for advanced noise generation.
+
+Feel free to explore the wonders of the cosmos by cloning and running this application. Make sure to check the README for detailed instructions on setup and usage.
 
 ## How To Use
 
