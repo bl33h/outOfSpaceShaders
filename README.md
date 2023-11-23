@@ -40,8 +40,6 @@ The main features of the graphics application include:
 ## External Dependencies
 The project makes use of the FastNoise library by Jordan Peck (jordan.me2@gmail.com). Specifically, it includes the files FastNoise.h and FastNoise.Lite.h for advanced noise generation.
 
-Feel free to explore the wonders of the cosmos by cloning and running this application. Make sure to check the README for detailed instructions on setup and usage.
-
 ## How To Use
 
 To clone and run this application, you'll need [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install) and the following tools installed on it: [Git](https://git-scm.com), [C++ compiler](https://www.fdi.ucm.es/profesor/luis/fp/devtools/mingw.html), [CMake](https://cmake.org/download/), [Make](https://linuxhint.com/install-make-ubuntu/), [glew](https://zoomadmin.com/HowToInstall/UbuntuPackage/libglew-dev), [glm](https://sourceforge.net/projects/glm.mirror/), [tbb](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html), and [SDL2](https://www.oreilly.com/library/view/rust-programming-by/9781788390637/386c15eb-41b2-41b4-bd65-154a750a58d8.xhtml). From your command line:
