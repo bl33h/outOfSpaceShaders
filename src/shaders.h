@@ -1,7 +1,15 @@
+/*---------------------------------------------------------------------------
+Copyright (C), 2022-2023, Sara Echeverria (bl33h)
+@author Sara Echeverria
+FileName: shaders.h
+@version: I
+Creation: 29/09/2023
+Last modification: 23/11/2023
+*Some parts were made using the AIs Bard and ChatGPT
+------------------------------------------------------------------------------*/
 #pragma once
 #include <glm/glm.hpp>
 #include "FastNoiseLite.h"
-#include "uniforms.h"
 #include "fragment.h"
 #include "noise.h"
 #include "print.h"
@@ -130,9 +138,9 @@ Fragment fragmentShaderEarth(Fragment& fragment) {
         float noiseValue = noiseGenerator(fragment.originalPos.x, fragment.originalPos.y, fragment.originalPos.z);
         float LandThreshold = 0.5f;
         if (noiseValue < LandThreshold) {
-            Land = Color(LandColor.x / 255.0f, LandColor.y / 255.0f, LandColor.z / 255.0f); // Normaliza el color a valores en el rango [0, 1]
+            Land = Color(LandColor.x / 255.0f, LandColor.y / 255.0f, LandColor.z / 255.0f);
         } else {
-            Ocean = Color(oceanColor.x / 255.0f, oceanColor.y / 255.0f, oceanColor.z / 255.0f); // Normaliza el color a valores en el rango [0, 1]
+            Ocean = Color(oceanColor.x / 255.0f, oceanColor.y / 255.0f, oceanColor.z / 255.0f); 
         }
     }
 
