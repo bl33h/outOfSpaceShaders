@@ -34,6 +34,9 @@ It's a is a graphics application project that explores the fascinating realm of 
   - **triangleFill.h**: Header file for triangle filling functions.
   - **triangles.cpp**: Source code file containing functions related to triangles.
 
+## External Dependencies
+The project makes use of the FastNoise library by Jordan Peck (jordan.me2@gmail.com). Specifically, it includes the files FastNoise.h and FastNoise.Lite.h for advanced noise generation.
+
 ## Features
 
 The main features of the graphics application include:
@@ -41,9 +44,6 @@ The main features of the graphics application include:
 - Implementation of various shaders for different celestial bodies (Earth, Neptune, Sun, Moon, Venus, Pluton, Random).
 - Noise generation for terrain and density.
 - Triangle filling functions for rendering.
-
-## External Dependencies
-The project makes use of the FastNoise library by Jordan Peck (jordan.me2@gmail.com). Specifically, it includes the files FastNoise.h and FastNoise.Lite.h for advanced noise generation.
 
 ## How To Use
 
