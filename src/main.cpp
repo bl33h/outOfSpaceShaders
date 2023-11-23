@@ -7,7 +7,7 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <vector>
 #include <SDL2/SDL_opengl.h>
-#include "earthShader.h"
+#include "shaders.h"
 
 bool init(SDL_Window*& window, SDL_GLContext& context) {
 
