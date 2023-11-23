@@ -15,19 +15,24 @@ It's a is a graphics application project that explores the fascinating realm of 
 </p>
 
 **Files:**
-- **barycentric.cpp**: Source code file for barycentric coordinate calculations.
-- **camera.h**: Header file defining the camera class for viewpoint control.
-- **colors.h**: Header file containing color definitions.
-- **fragment.h**: Header file defining functions for fragment processing.
-- **framebuffer.cpp**: Source code file for framebuffer management.
-- **framebuffer.h**: Header file defining the framebuffer class.
-- **main.cpp**: Main source code file for the graphics application.
-- **noise.h**: Header file for noise generation functions.
-- **print.h**: Header file containing print functions.
-- **shaders.h**: Header file defining shader functions for different celestial bodies.
-- **triangleFill.cpp**: Source code file for triangle filling functions.
-- **triangleFill.h**: Header file for triangle filling functions.
-- **triangles.cpp**: Source code file containing functions related to triangles.
+- **configure.sh**: A shell script to set up the project dependencies and environment.
+- **build.sh**: A shell script to build the project using CMake.
+- **run.sh**: A shell script to execute the compiled graphics application.
+- **clean.sh**: A shell script to clean up build artifacts and generated files.
+- **src**: A directory containing the source code files for the graphics application.
+  - **barycentric.cpp**: Source code file for barycentric coordinate calculations.
+  - **camera.h**: Header file defining the camera class for viewpoint control.
+  - **colors.h**: Header file containing color definitions.
+  - **fragment.h**: Header file defining functions for fragment processing.
+  - **framebuffer.cpp**: Source code file for framebuffer management.
+  - **framebuffer.h**: Header file defining the framebuffer class.
+  - **main.cpp**: Main source code file for the graphics application.
+  - **noise.h**: Header file for noise generation functions.
+  - **print.h**: Header file containing print functions.
+  - **shaders.h**: Header file defining shader functions for different celestial bodies.
+  - **triangleFill.cpp**: Source code file for triangle filling functions.
+  - **triangleFill.h**: Header file for triangle filling functions.
+  - **triangles.cpp**: Source code file containing functions related to triangles.
 
 ## Features
 
