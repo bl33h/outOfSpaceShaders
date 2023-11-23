@@ -1,3 +1,12 @@
+/*---------------------------------------------------------------------------
+Copyright (C), 2022-2023, Sara Echeverria (bl33h)
+@author Sara Echeverria
+FileName: framebuffer.cpp
+@version: I
+Creation: 29/09/2023
+Last modification: 23/11/2023
+*Some parts were made using the AIs Bard and ChatGPT
+------------------------------------------------------------------------------*/
 #include "framebuffer.h"
 
 FragColor blank{

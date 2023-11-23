@@ -1,3 +1,12 @@
+/*---------------------------------------------------------------------------
+Copyright (C), 2022-2023, Sara Echeverria (bl33h)
+@author Sara Echeverria
+FileName: triangles.cpp
+@version: I
+Creation: 29/09/2023
+Last modification: 23/11/2023
+*Some parts were made using the AIs Bard and ChatGPT
+------------------------------------------------------------------------------*/
 #include "triangles.h"
 
 glm::vec3 L = glm::vec3(0.0f, 0.0f, 1.0f);
