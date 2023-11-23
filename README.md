@@ -1,5 +1,5 @@
 # outOfSpaceShaders
-A
+It's a is a graphics application project that explores the fascinating realm of celestial bodies through the lens of shaders. The project implements various shaders for different celestial bodies such as Earth, Neptune, Sun, Moon, Venus, Pluton, and a Random shader. It utilizes noise generation for terrain and density, along with triangle filling functions for rendering.
 
 <p align="center">
   <br>
@@ -13,20 +13,28 @@ A
   <a href="#how-to-use">How To Use</a>
 </p>
 
-## Files
-
-- **configure.sh**: A shell script to set up the project dependencies and environment.
-- **build.sh**: A shell script to build the project using CMake.
-- **run.sh**: A shell script to execute the compiled graphics application.
-- **clean.sh**: A shell script to clean up build artifacts and generated files.
-- **src**: A directory containing the source code files for the graphics application.
-  - **main.cpp**: A
+**Files:**
+- **barycentric.cpp**: Source code file for barycentric coordinate calculations.
+- **camera.h**: Header file defining the camera class for viewpoint control.
+- **colors.h**: Header file containing color definitions.
+- **fragment.h**: Header file defining functions for fragment processing.
+- **framebuffer.cpp**: Source code file for framebuffer management.
+- **framebuffer.h**: Header file defining the framebuffer class.
+- **main.cpp**: Main source code file for the graphics application.
+- **noise.h**: Header file for noise generation functions.
+- **print.h**: Header file containing print functions.
+- **shaders.h**: Header file defining shader functions for different celestial bodies.
+- **triangleFill.cpp**: Source code file for triangle filling functions.
+- **triangleFill.h**: Header file for triangle filling functions.
+- **triangles.cpp**: Source code file containing functions related to triangles.
 
 ## Features
 
 The main features of the graphics application include:
 
-- A
+- Implementation of various shaders for different celestial bodies (Earth, Neptune, Sun, Moon, Venus, Pluto, Random).
+- Noise generation for terrain and density.
+- Triangle filling functions for rendering.
 
 ## How To Use
 
